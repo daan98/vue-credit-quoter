@@ -1,5 +1,10 @@
-<script setup></script>
+<script setup>
+    defineProps({
+        deadlineSelected: String,
+        selectMonth : Function
+    });
+</script>
 
 <template>
-    <h1 class="text-2xl font-bold text-purple-600">PaymentDeadline</h1>
+    
 </template>
